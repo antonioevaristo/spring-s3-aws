@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: awsessential
+aws:
+  access:
+    id:
+    secret:
+  s3:
+    region: us-east-1
