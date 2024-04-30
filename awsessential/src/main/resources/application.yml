@@ -1,6 +1,10 @@
 spring:
   application:
     name: awsessential
+
+server:
+  port: 8080
+
 aws:
   access:
     id:
