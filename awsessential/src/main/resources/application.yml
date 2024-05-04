@@ -1,6 +1,10 @@
 spring:
   application:
     name: awsessential
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:terraform-20240504004628566700000001.c5q2ygy0yfv5.us-east-1.rds.amazonaws.com}:3306/terraformmysql
+    username: meudb
+    password:
 
 server:
   port: 8080
